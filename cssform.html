@@ -1,0 +1,120 @@
+
+
+<DOCTYPE! html>
+<html>
+<head>
+<title>formcss</title>
+<link rel="stylesheet" href="mycss.css">
+</head>
+
+<body>
+
+
+<div class="header">
+				
+		<ul>
+  <li><a href="#home">Home</a></li>
+  
+ <li><a href="#blog">BLOG</a></li>
+		
+  
+  
+  <li class="dropdown"><a href="#news" href="javascript:void(0)" class="dropbtn">News</a>
+	 <div class="dropdown-content">
+      <a href="#" >Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  
+  </li>
+  
+  <li><a href="#about us">ABOUT US</a></li>
+  
+ <li><a href="#features">FEATURES</a></li>
+		
+	 <li class="dropdown"><a href="#services" href="javascript:void(0)" class="dropbtn">SERVICES</a>
+	 <div class="dropdown-content">
+     <button><a href="https://www.youtube.com/watch?v=FX0_QUboUXU">sign up</a></button>
+
+     <button><a href="#">Log in</a></button>
+      
+    </div>
+  
+  </li>
+  
+</ul>
+		 
+				
+	</div>
+			
+<h3>please enter your information to login to rheson</h3>
+
+<div>
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+  <div>
+    <input type="submit" value="Submit">
+	<form action="http://google.com">
+    <input type="submit" value="Go to Google">
+</form>
+	
+	<button type="button"><a href="file:///M:/samu/html%20tutorial/cssform.html">Link link</a></button>
+  </form>
+</div>
+
+
+
+
+
+
+
+<!-- Slide Show -->
+<section>
+  <img class="moru" src="f9.jpg"
+  style="width:50%">
+  <img class="moru" src="f8.jpg"
+  style="width:50%">
+  <img class="moru" src="f7.jpg"
+  style="width:50%">
+</section>
+
+<script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("moru");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 3000);
+}
+</script>
+
+
+
+  <button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+
+<p id="demo">visit us at rheson.com</p>
+
+<button type="button" onclick="document.getElementById('demo').style.fontSize='35px'">Click Me!</button>
+<button type="button" onclick="document.write(5 + 6)">Try it</button>
+
+</body>
+<html>

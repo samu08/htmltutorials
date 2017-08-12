@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>test title</title>
+<style>
+body {color:pink;}
+h1 {color:yellow;}
+p   {color:red;}
+
+</style>
+</head>
+<body>
+<h1>goood morning </h1><br>
+<p>goood night people</p>
+
+</body>
+</html>
